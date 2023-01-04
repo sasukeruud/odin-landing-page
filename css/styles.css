@@ -10,6 +10,7 @@ button{
 
 ul{
     list-style-type: none;
+    display: flex;
 }
 
 a{
