@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    color: #3882F6;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+}
+
+.hero{
+    background-color: #1F2937;
+}
+
+.footer{
+    background-color: #1F2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font: 36px light italic;
+}
+
