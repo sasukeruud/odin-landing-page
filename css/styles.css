@@ -11,6 +11,7 @@ button{
 ul{
     list-style-type: none;
     display: flex;
+    gap: 16px;
 }
 
 a{
@@ -21,6 +22,7 @@ a{
 .header{
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
 }
 
 .hero{
