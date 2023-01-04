@@ -1,10 +1,20 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 button{
-    color: #3882F6;
+    background-color: #3882F6;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font: 18px #E5E7EB;
 }
 
 .header{
