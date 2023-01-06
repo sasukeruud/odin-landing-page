@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 button{
@@ -11,6 +12,7 @@ button{
 ul{
     list-style-type: none;
     display: flex;
+    align-items: center;
     padding: 5px;
     gap: 16px;
 }
@@ -25,14 +27,18 @@ a{
     background-color: #1F2937;
     justify-content: space-between;
     padding: 5px;
+    margin: 0px;
 }
 
 .hero{
     background-color: #1F2937;
+    display: flex;
 }
 
 .footer{
     background-color: #1F2937;
+    text-align: center;
+    justify-content: stretch;
 }
 
 .quote{
@@ -41,3 +47,10 @@ a{
     font: 36px light italic;
 }
 
+.main{
+    display: flex;
+    margin: 0;
+    flex: auto;
+    justify-content: stretch;
+    flex-direction: column;
+}
