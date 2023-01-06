@@ -22,6 +22,11 @@ a{
     font: 18px #E5E7EB;
 }
 
+img{
+    width: 400px;
+    height: auto;
+}
+
 .header{
     display: flex;
     background-color: #1F2937;
