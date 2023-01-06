@@ -31,6 +31,11 @@ img{
     
 }
 
+.header,.footer{
+    background-color: #1F2937;
+    margin: 0px;
+}
+
 .information-header{
     display: flex;
     flex-direction: column;
@@ -54,10 +59,8 @@ img{
 
 .header{
     display: flex;
-    background-color: #1F2937;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 5px;
-    margin: 0px;
 }
 
 .hero{
@@ -66,7 +69,6 @@ img{
 }
 
 .footer{
-    background-color: #1F2937;
     text-align: center;
 }
 
