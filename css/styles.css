@@ -23,12 +23,21 @@ a{
 }
 
 img{
-    width: 400px;
+    width: 100px;
     height: auto;
+    
 }
 
 .information{
     display: flex;
+    justify-content: space-around;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 140px;
+    align-items: center;
 }
 
 .header{
