@@ -10,6 +10,17 @@ body{
 
 button{
     background-color: #3882F6;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.hero button{
+    border-color: #1F2937;
+}
+
+.banner button{
+    border-color: #E5E7EB;
 }
 
 ul{
@@ -22,7 +33,11 @@ ul{
 
 a{
     text-decoration: none;
-    font: 18px #E5E7EB;
+    font: 18px;
+}
+
+a:any-link{
+    color: #E5E7EB;
 }
 
 img{
@@ -69,6 +84,11 @@ img{
     padding: 5px;
 }
 
+.header h1{
+    font: 24px;
+    color: #F9FAF8;
+}
+
 .hero{
     background-color: #1F2937;
     display: flex;
@@ -78,6 +98,14 @@ img{
 
 .hero-text{
     width: 300px;
+    font: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-subtext, .banner, button{
+    font: 18px;
+    color: #E5E7EB;
 }
 
 .footer{
