@@ -94,3 +94,13 @@ img{
     justify-content: stretch;
     flex-direction: column;
 }
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
