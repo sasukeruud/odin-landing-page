@@ -28,7 +28,8 @@ a{
 img{
     width: 100px;
     height: auto;
-    
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .information img{
@@ -71,6 +72,12 @@ img{
 .hero{
     background-color: #1F2937;
     display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.hero-text{
+    width: 300px;
 }
 
 .footer{
